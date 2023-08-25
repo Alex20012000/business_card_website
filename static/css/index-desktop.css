@@ -1,0 +1,224 @@
+.header {
+  height: 83px;
+  background-color: #131313;
+}
+body {
+  min-width: 1300px;
+  margin: 0px;
+  font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+}
+body * {
+  box-sizing: border-box;
+}
+.hero {
+  height: 700px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/image_4.33.png) center / cover no-repeat;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+  width: 190.74px;
+  margin-right: 95.47px;
+  color: #73b6e3;
+}
+.nav-list {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+}
+
+.nav-list__item:nth-child(-n + 5) {
+  margin-right: 47.09px;
+}
+
+.nav-list__item:nth-child(1) {
+  width: 40px;
+}
+
+.nav-list__item:nth-child(2) {
+  width: 70px;
+}
+
+.nav-list__item:nth-child(3) {
+  width: 180px;
+}
+
+.nav-list__item:nth-child(4) {
+  width: 34px;
+}
+
+.nav-list__item:nth-child(5) {
+  width: 53px;
+}
+
+.nav-list__item:nth-child(6) {
+  width: 67px;
+}
+
+.nav-list__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-list__link:hover,
+.nav-list__link:focus {
+  color: #e3b873;
+}
+.projects {
+  
+  padding-top: 107px;
+  background-color: #a09f9f;
+}
+.info {
+display:grid ;
+grid-template-columns:  1fr 1fr;
+grid-template-rows:  1fr 1fr;
+grid-area: D;
+justify-content: center;
+text-align: center;
+/* height: 100%; */
+}
+.text_area{
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.projects-content {
+  width: 1300px;
+  margin: 0px auto auto auto;
+  padding: 0px 64px 0px;
+  display: grid;
+  grid-template-columns:10px 900px 10px ;
+  grid-template-rows: 155px 600px 107px 450px 40px 107px 107px 107px ;
+  grid-template-areas:
+    "A B Y"
+    "A I Y"
+    "A C Y"
+    "A D Y"
+    "A H Y";
+    
+    justify-content: center;
+    align-items: center;
+}
+.projects-title-area {
+  grid-area: B;
+  padding: 0px 40px 0px 0px;
+}
+
+.projects-title-area > .title {
+  letter-spacing: -0.07em;
+  display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.projects-links-area {
+  grid-area: C;
+}
+
+.projects-info-area1 {
+  /* grid-area: D; */
+}
+
+.projects-info-area2 {
+  /* grid-area: E; */
+}
+
+.projects-info-area3 {
+  /* grid-area: F; */
+}
+
+.projects-info-area4 {
+  /* grid-area: G; */
+}
+
+.projects-switch-area {
+  grid-area: H;
+  display: flex;
+  align-items: flex-end;
+}
+.project-link:hover,
+.project-link:focus,
+.project-link-active {
+  color: #e3b873 !important;
+  
+ 
+  text-underline-offset: 10px;
+}
+
+.project-image-area {
+  grid-area: I;
+  background: center / cover no-repeat;
+  background-image: url(../images/image_2.1.png);
+  height: 100%;
+}
+.project-link {
+  color: rgba(7, 7, 7, 0.3);
+  font-family: "Yeseva One", Georgia, Times, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+}
+.project-link:nth-child(-n + 2) {
+  margin-right: 57px;
+}
+.dot-button {
+  width: 9.57px;
+  height: 9.57px;
+  margin-top: 1.855px;
+  margin-bottom: 1.855px;
+  padding: 0;
+  background: url(../icons/dot.svg) center / contain no-repeat transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.dot-button:hover,
+.dot-button:focus,
+.dot-button-active {
+  background-image: url(../icons/dot_active.svg);
+}
+.arrow-button {
+  width: 41.46px;
+  height: 13.28px;
+  padding: 0;
+  background: url(../icons/arrow.svg) center / contain no-repeat transparent;
+  border: none;
+  cursor: pointer;
+}
+.projects-switch-area > button:nth-of-type(1) {
+  margin-right: 29.5px;
+  transform: rotate(180deg);
+}
+.projects-switch-area > button:nth-of-type(3) {
+  margin-left: 17.54px;
+  margin-right: 17.54px;
+}
+.projects-switch-area > button:nth-of-type(5) {
+  margin-left: 29.5px;
+}
+.projects-info-text {
+  margin: 9px 0px 0px;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 21px;
+  width: 100px;
+}
+
+.header-footer-content {
+  height: inherit;
+  width: 1300px;
+  margin: auto;
+  padding: 0px 22px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+}
+.footer {
+  height: 133px;
+  background-color: #131313;
+}
